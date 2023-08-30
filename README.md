@@ -32,7 +32,7 @@ ros2 run executors_exercises_pkg single-thread-executor_example_3_node
 
 And this for Multi-Thread:
 ```sh
-ros2 run executors_exercises_pkg single-thread-executor_example_3_node 
+ros2 run executors_exercises_pkg multi-thread-executor_example_3_node 
 ```
 
 ## Diference Between Single-Thread and Multi-Thread
@@ -41,7 +41,9 @@ ros2 run executors_exercises_pkg single-thread-executor_example_3_node
     <u><b>Single-Thread</b></u>
 </p>
 
-![](img/main_menu.png)
+<p align="center">
+   <img src="imgs/single-thread.gif" width="500" height="300">
+</p>
 
 <p align="center">
   <u><b>Multi-Thread </b></u> 
