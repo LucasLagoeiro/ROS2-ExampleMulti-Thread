@@ -6,10 +6,7 @@
 </p>
 
 ## Prerequisites
-* [IDE](https://code.visualstudio.com/)
-* [Git](https://git-scm.com/)
-* [Compiler](https://gcc.gnu.org/) (I strongly recommend GCC but you can use G++)
-
+* [ROS2-Humble](https://docs.ros.org/en/humble/index.html#)
 
 ## Installation
 
@@ -19,29 +16,42 @@ Mac OS X & Linux & Windows:
 git clone https://github.com/LucasLagoeiro/Project-CCP130.git
 ```
 
-After this you just need to run the Compiler:
+After this you just need to compile in the workspace:
 ```sh
-gcc main.c -o exec && .\exec
+cd ros2_ws && colcon build
 ```
-## The Project
-> When you run the code, you enter the main menu where you can decide if you want to enter the dictionary or play the famous Hangman Game.
+And run the code.
+
+
+
+## Run the code
+This for Single-Thread:
+```sh
+ros2 run executors_exercises_pkg single-thread-executor_example_3_node 
+```
+
+And this for Multi-Thread:
+```sh
+ros2 run executors_exercises_pkg single-thread-executor_example_3_node 
+```
+
+## Diference Between Single-Thread and Multi-Thread
+> When you run both codes, you can barely see the difference between this two methods of Threads.
 <p align="center">
-    <u><b>Main Menu</b></u>
+    <u><b>Single-Thread</b></u>
 </p>
 
 ![](img/main_menu.png)
 
 <p align="center">
-  <u><b>Dictionary Menu </b></u> 
+  <u><b>Multi-Thread </b></u> 
 </p>
 
 <p align="center">
   <img src="img/Dictionary_Menu.png" "width="200" height="350" />
 </p>
 
-<p align="center">
-   <u><b>Hangman Game Menu </b></u> 
-</p>
+
 
 
 ![](img/hangman_game.png)
@@ -49,22 +59,13 @@ gcc main.c -o exec && .\exec
 
 ## Updates
 
-* 3.0.1
-    * FIX: The bug when you run the code in Windows, the Hangman game does not work.
-* 3.0.0
-    * FIX: The bug when you type the same wrong word it decreases your attempt at the Hangman Game.
-* 2.0.1
-    * Updates README.
-    * ADD: A new folder (imgs).
-* 2.0.0
-    * ADD: An Interface (Project Menu,Dictionary Menu, HangmanGame Menu).
-    * FIX: some bugs.
+
 * 1.0.0
-    * The first stable release.
+    * Workspace with one example of single-thread and multi-thread.
 
 
 ## Meta
-The ideia of project is by the professor [@danilo_perico](https://github.com/danilo-perico) on CCP130 subject in the [University Center of FEI](https://portal.fei.edu.br/)
+The ideia of this repository is to help people to develop projects in ROS2.
 
 Lucas Lagoeiro - [@DevLagoeiro](https://twitter.com/DevLagoeiro) - devlagoeiro@outlook.com
 
