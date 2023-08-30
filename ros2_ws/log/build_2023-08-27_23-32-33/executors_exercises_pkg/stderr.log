@@ -1,0 +1,8 @@
+[01m[K/home/robo/Desktop/Multi-threading/ros2_ws/src/executors_exercises_pkg/src/executor_example_3.cpp:[m[K In constructor ‘[01m[KFastTimer::FastTimer(float)[m[K’:
+[01m[K/home/robo/Desktop/Multi-threading/ros2_ws/src/executors_exercises_pkg/src/executor_example_3.cpp:51:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass FastTimer[m[K’ has no member named ‘[01m[Kcreate_wall_timerFast[m[K’; did you mean ‘[01m[Kcreate_wall_timer[m[K’?
+   51 |     timerFast_ = this->[01;31m[Kcreate_wall_timerFast[m[K(
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                        [32m[Kcreate_wall_timer[m[K
+gmake[2]: *** [CMakeFiles/executor_example_3_node.dir/build.make:76: CMakeFiles/executor_example_3_node.dir/src/executor_example_3.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/executor_example_3_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

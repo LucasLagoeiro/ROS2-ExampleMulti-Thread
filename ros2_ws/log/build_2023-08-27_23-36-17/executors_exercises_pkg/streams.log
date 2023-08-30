@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg -- -j12 -l12
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/executor_example_3_node.dir/src/executor_example_3.cpp.o[0m
+[1.702s] [100%] [32m[1mLinking CXX executable executor_example_3_node[0m
+[1.771s] [100%] Built target executor_example_3_node
+[1.777s] Invoked command in '/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg -- -j12 -l12
+[1.825s] Invoking command in '/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --install /home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg
+[1.841s] -- Install configuration: ""
+[1.841s] -- Installing: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/lib/executors_exercises_pkg/executor_example_3_node
+[1.841s] -- Set runtime path of "/home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/lib/executors_exercises_pkg/executor_example_3_node" to ""
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/ament_index/resource_index/package_run_dependencies/executors_exercises_pkg
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/ament_index/resource_index/parent_prefix_path/executors_exercises_pkg
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/environment/ament_prefix_path.sh
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/environment/ament_prefix_path.dsv
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/environment/path.sh
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/environment/path.dsv
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/local_setup.bash
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/local_setup.sh
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/local_setup.zsh
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/local_setup.dsv
+[1.842s] -- Installing: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/package.dsv
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/ament_index/resource_index/packages/executors_exercises_pkg
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/cmake/executors_exercises_pkgConfig.cmake
+[1.842s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/cmake/executors_exercises_pkgConfig-version.cmake
+[1.843s] -- Up-to-date: /home/robo/Desktop/Multi-threading/ros2_ws/install/executors_exercises_pkg/share/executors_exercises_pkg/package.xml
+[1.846s] Invoked command in '/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --install /home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg

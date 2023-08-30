@@ -1,0 +1,10 @@
+/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg/CMakeFiles/uninstall.dir
+/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg/CMakeFiles/executors_exercises_pkg_uninstall.dir
+/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg/CMakeFiles/executor_example_3_node.dir
+/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg/CMakeFiles/test.dir
+/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg/CMakeFiles/edit_cache.dir
+/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg/CMakeFiles/rebuild_cache.dir
+/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg/CMakeFiles/list_install_components.dir
+/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg/CMakeFiles/install.dir
+/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg/CMakeFiles/install/local.dir
+/home/robo/Desktop/Multi-threading/ros2_ws/build/executors_exercises_pkg/CMakeFiles/install/strip.dir
