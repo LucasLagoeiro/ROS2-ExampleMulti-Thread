@@ -1,8 +1,8 @@
 # Example of a Single and Multi Thread in ROS2 (Humble)
-> This  repository have the objective to visualize the Single and Multi Thread to see the diference between them.
+> This  repository have the objective to see the diference between Single-Thread and Multi-Thread.
 > 
 <p align="center">
-  <img src="https://storage.googleapis.com/replit/images/1628352039581_5e6236e1be62c209b4629c3c76a8e3dc.jpeg" />
+  <img src="imgs/HumbleHawksbill.png" "width="200" height="350"/>
 </p>
 
 ## Prerequisites
@@ -36,7 +36,7 @@ gcc main.c -o exec && .\exec
 </p>
 
 <p align="center">
-  <img src="img/Dictionary_Menu.png" />
+  <img src="img/Dictionary_Menu.png" "width="200" height="350" />
 </p>
 
 <p align="center">
