@@ -24,11 +24,17 @@ endif()
 
 
 
-add_executable(executor_example_3_node src/executor_example_3.cpp)
-ament_target_dependencies(executor_example_3_node rclcpp nav_msgs)
+add_executable(multi-thread-executor_example_3_node src/multi-thread-executor_example_3.cpp)
+ament_target_dependencies(multi-thread-executor_example_3_node   rclcpp nav_msgs)
+
+add_executable(single-thread-executor_example_3_node src/single-thread-executor_example_3.cpp)
+ament_target_dependencies(single-thread-executor_example_3_node   rclcpp nav_msgs)
+
+
 
 install(TARGETS
-   executor_example_3_node
+   multi-thread-executor_example_3_node
+   single-thread-executor_example_3_node
    DESTINATION lib/${PROJECT_NAME}
  )
 

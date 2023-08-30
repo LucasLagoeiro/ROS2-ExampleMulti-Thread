@@ -1,0 +1,67 @@
+[0.010s] Invoking command in '/home/robo/Desktop/Multi-threading/build/executors_exercises_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake /home/robo/Desktop/Multi-threading/ros2_ws/src/executors_exercises_pkg -DCMAKE_INSTALL_PREFIX=/home/robo/Desktop/Multi-threading/install/executors_exercises_pkg
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.110s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.163s] -- Detecting CXX compiler ABI info
+[0.206s] -- Detecting CXX compiler ABI info - done
+[0.214s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.214s] -- Detecting CXX compile features
+[0.214s] -- Detecting CXX compile features - done
+[0.216s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.427s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.484s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.517s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.521s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.527s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.606s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.665s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.683s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.756s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.757s] -- Found Threads: TRUE  
+[0.870s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.957s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.005s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.005s] -- Configured cppcheck include dirs: 
+[1.005s] -- Configured cppcheck exclude dirs and/or files: 
+[1.006s] -- Added test 'lint_cmake' to check CMake code style
+[1.007s] -- Added test 'uncrustify' to check C / C++ code style
+[1.007s] -- Configured uncrustify additional arguments: 
+[1.007s] -- Added test 'xmllint' to check XML markup files
+[1.008s] -- Configuring done (1.0s)
+[1.014s] -- Generating done (0.0s)
+[1.015s] -- Build files have been written to: /home/robo/Desktop/Multi-threading/build/executors_exercises_pkg
+[1.023s] Invoked command in '/home/robo/Desktop/Multi-threading/build/executors_exercises_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake /home/robo/Desktop/Multi-threading/ros2_ws/src/executors_exercises_pkg -DCMAKE_INSTALL_PREFIX=/home/robo/Desktop/Multi-threading/install/executors_exercises_pkg
+[1.024s] Invoking command in '/home/robo/Desktop/Multi-threading/build/executors_exercises_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/Desktop/Multi-threading/build/executors_exercises_pkg -- -j12 -l12
+[1.054s] [ 50%] [32mBuilding CXX object CMakeFiles/multi-thread-executor_example_3_node.dir/src/multi-thread-executor_example_3.cpp.o[0m
+[2.698s] [100%] [32m[1mLinking CXX executable multi-thread-executor_example_3_node[0m
+[2.766s] [100%] Built target multi-thread-executor_example_3_node
+[2.772s] Invoked command in '/home/robo/Desktop/Multi-threading/build/executors_exercises_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/Desktop/Multi-threading/build/executors_exercises_pkg -- -j12 -l12
+[2.819s] Invoking command in '/home/robo/Desktop/Multi-threading/build/executors_exercises_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --install /home/robo/Desktop/Multi-threading/build/executors_exercises_pkg
+[2.834s] -- Install configuration: ""
+[2.834s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/lib/executors_exercises_pkg/multi-thread-executor_example_3_node
+[2.834s] -- Set runtime path of "/home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/lib/executors_exercises_pkg/multi-thread-executor_example_3_node" to ""
+[2.834s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/ament_index/resource_index/package_run_dependencies/executors_exercises_pkg
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/ament_index/resource_index/parent_prefix_path/executors_exercises_pkg
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/environment/ament_prefix_path.sh
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/environment/ament_prefix_path.dsv
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/environment/path.sh
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/environment/path.dsv
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/local_setup.bash
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/local_setup.sh
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/local_setup.zsh
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/local_setup.dsv
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/package.dsv
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/ament_index/resource_index/packages/executors_exercises_pkg
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/cmake/executors_exercises_pkgConfig.cmake
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/cmake/executors_exercises_pkgConfig-version.cmake
+[2.835s] -- Installing: /home/robo/Desktop/Multi-threading/install/executors_exercises_pkg/share/executors_exercises_pkg/package.xml
+[2.839s] Invoked command in '/home/robo/Desktop/Multi-threading/build/executors_exercises_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --install /home/robo/Desktop/Multi-threading/build/executors_exercises_pkg

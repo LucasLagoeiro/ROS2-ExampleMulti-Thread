@@ -1,0 +1,2 @@
+Invoking command in '/home/robo/Desktop/Multi-threading/build/executors_exercises_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/Desktop/Multi-threading/build/executors_exercises_pkg -- -j12 -l12
+Invoked command in '/home/robo/Desktop/Multi-threading/build/executors_exercises_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/Desktop/Multi-threading/build/executors_exercises_pkg -- -j12 -l12
