@@ -50,7 +50,7 @@ ros2 run executors_exercises_pkg multi-thread-executor_example_3_node
 </p>
 
 <p align="center">
-  <img src="img/Dictionary_Menu.png" "width="200" height="350" />
+  <img src="imgs/multi-thread.gif"/>
 </p>
 
 
