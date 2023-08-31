@@ -42,7 +42,7 @@ ros2 run executors_exercises_pkg multi-thread-executor_example_3_node
 </p>
 
 <p align="center">
-   <img src="imgs/single-thread.gif" width="500" height="300">
+   <img src="imgs/single-thread.gif">
 </p>
 
 <p align="center">
